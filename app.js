@@ -6,10 +6,9 @@ const db = require("./mongodb");
 const authRouter = require("./controllers/auth");
 const blogRouter = require("./controllers/blog");
 const userRouter = require("./controllers/user");
-dotenv.config();
 const app = express();
 const PORT = 7701;
-
+dotenv.config();
 
 db();
 
